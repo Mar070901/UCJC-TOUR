@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UCJC TOUR</title>
+    <meta name="description" content="UCJC TOUR">
+    <meta name="author" content="Mar Quispe">
+    
+    <!-- Importación de bibliotecas de A-Frame -->
+    <script src="./js/libraries/aframe.min.js"></script>
+    <script src="./js/libraries/aframe-animation-component.min.js"></script>
+    <script src="./js/libraries/aframe-look-at-component.min.js"></script>
+    <script src="./js/libraries/aframe-asset-on-demand-component.min.js"></script>
+
+    <!-- Script del tour -->
+    <script src="./js/index.js"></script>
+  </head>
+  <body>
+    <!-- Definición de la escena principal de A-Frame -->
+    <a-scene>
+      
+      <!-- Cargar recursos (imágenes y música) -->
+      <a-assets>
+        <!-- Imagen para el fondo -->
+        <img id="scene1" src="./img/p0_0.jpg"/>
+        
+        <!-- Imagenes puntos de interes -->
+        <img id="hotspot" src="./img/box.png"/>
+        
+        <!-- Música de fondo -->
+        <audio id="background-music" src="./audio/music.mp3" preload="auto"></audio>
+      </a-assets>
+      
+      <!-- Entidad para los puntos de interés -->
+      <a-entity id="spots" hotspots></a-entity>
+
+      <!-- Definir el cielo -->
+      <a-sky id="skybox" src="#scene1"></a-sky>
+
+      <!-- Configuración de la cámara y los controles -->
+      <a-entity id="cam" camera position="0 1.6 0" look-controls>
+        <a-entity cursor="fuse:true; fuseTimeout:1500"
+          geometry="primitive:ring; radiusInner:0.01; radiusOuter:0.02"
+          position="0 0 -1.4"
+          material="shader:flat; color:#84ff68"
+          animation__mouseenter="property:scale; to:3 3 3; startEvents:mouseenter; endEvents:mouseleave; dir:reverse; dur:1500; loop:1">
+        </a-entity>
+      </a-entity>
+
+      <!-- Reproducir música en bucle al cargar la escena -->
+      <a-sound src="#background-music" autoplay="true" loop="true" position="0 1.6 -3"></a-sound>
+
+    </a-scene>
+
+    <!-- Script adicional para control de zoom -->
+    <script src="./js/zoom.js"></script>
+  </body>
+</html>
