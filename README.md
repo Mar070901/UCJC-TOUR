@@ -57,6 +57,7 @@ Para mejorar la accesibilidad, **UCJC Tour** puede usarse como herramienta para 
 
 ## Ejemplo de Uso
 - Un ejemplo práctico del funcionamiento de UCJC Tour sería el siguiente:
+  
   1. El usuario accede al tour y visualiza la primera escena de la universidad
   2. Al hacer clic en un hotspot, la escena cambia para mostrar otra ubicación, como el auditorio o cafeteria
   3. Mientras explora, se reproduce música de fondo y los iconos del tour apuntan automáticamente hacia la cámara para facilitar la interacción.
