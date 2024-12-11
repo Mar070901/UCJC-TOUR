@@ -57,10 +57,9 @@ Para mejorar la accesibilidad, **UCJC Tour** puede usarse como herramienta para 
 
 ## Ejemplo de Uso
 - Un ejemplo práctico del funcionamiento de UCJC Tour sería el siguiente:
-
-    1º-El usuario accede al tour y visualiza la primera escena de la universidad.
-    2º-Al hacer clic en un hotspot, la escena cambia para mostrar otra ubicación, como el auditorio o cafeteria.
-    3º-Mientras explora, se reproduce música de fondo y los iconos del tour apuntan automáticamente hacia la cámara para facilitar la interacción.
+  1. El usuario accede al tour y visualiza la primera escena de la universidad
+  2. Al hacer clic en un hotspot, la escena cambia para mostrar otra ubicación, como el auditorio o cafeteria
+  3. Mientras explora, se reproduce música de fondo y los iconos del tour apuntan automáticamente hacia la cámara para facilitar la interacción.
 
 ## Conclusión
   **UCJC Tour** es una herramienta potente y flexible para crear experiencias interactivas e inmersivas. Gracias a su diseño basado en A-Frame y a la gestión dinámica de recursos mediante JSON, el proyecto es fácil de extender y personalizar. Este tour ofrece una forma innovadora de explorar la Universidad Camilo José Cela, sirviendo como base para futuros proyectos en entornos educativos o promocionales.
