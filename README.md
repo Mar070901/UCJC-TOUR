@@ -63,5 +63,4 @@ Para mejorar la accesibilidad, **UCJC Tour** puede usarse como herramienta para 
   3. Mientras explora, se reproduce música de fondo y los iconos del tour apuntan automáticamente hacia la cámara para facilitar la interacción.
 
 ## Conclusión
-  **UCJC Tour** es una herramienta potente y flexible para crear experiencias interactivas e inmersivas. Gracias a su diseño basado en A-Frame y a la gestión dinámica de recursos mediante JSON, el proyecto es fácil de extender y personalizar. Este tour ofrece una forma innovadora de explorar la Universidad Camilo José Cela, sirviendo como base para futuros proyectos en entornos educativos o promocionales.
-de texto en nuestra aplicación, lo que amplía aún más sus posibilidades de comunicación y aprendizaje. Amigo no solo promueve la inclusión, sino que también empodera a las personas a expresarse de manera efectiva y confiada.
+  **UCJC Tour** es una herramienta potente y flexible para crear experiencias interactivas e inmersivas. Gracias a su diseño basado en A-Frame y a la gestión dinámica de recursos mediante JSON, el proyecto es fácil de extender y personalizar. Este tour ofrece una forma innovadora de explorar la Universidad Camilo José Cela, sirviendo como base para futuros proyectos en entornos educativos o promocionales
