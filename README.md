@@ -15,7 +15,7 @@
 
 ## Descripción
 
-**UCJC TOUR** es una aplicación interactiva basada en A-Frame que permite explorar virtualmente la Universidad Camilo José Cela. Los usuarios pueden navegar entre diferentes escenas, interactuar con puntos de interés (hotspots) y experimentar un recorrido inmersivo en 360 grados.
+**UCJC TOUR** es un programa interactivo basada en A-Frame que permite explorar virtualmente la Universidad Camilo José Cela. Los usuarios pueden navegar entre diferentes escenas, interactuar con puntos de interés (hotspots) y experimentar un recorrido inmersivo en 360 grados.
 
 ## Requisitos
 ### Tecnologia necesarias
